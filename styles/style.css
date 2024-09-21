@@ -6,3 +6,9 @@ Green: #00B172
 White: #FFF
 
 */
+.navbar{
+    height: 60px;;
+}
+.logo{
+    width: 100px;
+}
