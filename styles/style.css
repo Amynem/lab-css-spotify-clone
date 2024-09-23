@@ -78,9 +78,10 @@ h3{
 }
 
 .second-section{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 .boxes-selling-points{
     float: left;
@@ -115,8 +116,8 @@ h4{
     justify-content: space-between;  
     align-items: center;          
     background-color: #00B172;    
-    padding: 5%;                  
-    height: 550px; 
+    padding: 10%;                  
+    height: 550px;
 }
 
 .kanye-section h4{
@@ -124,8 +125,8 @@ h4{
     text-decoration: underline;
     display: block;
     color: white;
-    font-size: 32px;;
-    overflow: visible;
+    font-size: 34px;;
+    white-space: nowrap;
 }
 
 .app-picture{
