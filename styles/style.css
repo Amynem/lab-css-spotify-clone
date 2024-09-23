@@ -10,6 +10,7 @@ White: #FFF
 body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
+    
 }
 
 .navbar{
@@ -19,13 +20,17 @@ body {
     background-color: white;
     width: 100%;
     top: 0px;
-
+    left: 0px;
 }
 .logo{
     width: 150px;
     float: left;
+    margin-top: 5px;
 }
 
+ul{
+    padding-right: 15px;
+}
 .menu{
     float: left;
     margin-right: 20px;
@@ -106,20 +111,52 @@ h4{
 }
 
 .kanye-section{
-    margin-top: 35%;
-    display: block;
-    background-color: #00B172;
+    display: flex;                
+    justify-content: space-between;  
+    align-items: center;          
+    background-color: #00B172;    
+    padding: 5%;                  
+    height: 550px; 
 }
 
 .kanye-section h4{
     text-align: left;
     text-decoration: underline;
     display: block;
-    padding-top: 5%;
     color: white;
+    font-size: 32px;;
+    overflow: visible;
 }
 
 .app-picture{
-    width: 20%;
+    width: 25%;
+    height: auto;  
+}
+
+.kanye-01{
+    width: 30%;
     float: left;
+}
+
+.spotify-icon{
+    max-width: 100%;              
+    height: auto;                    
+}
+
+.kanye-section p{
+    color: white;
+    font-weight: 200;
+}
+
+.kanye-section h5{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.spotify-icon-parent{
+    width: 10%;                   
+    display: flex;                
+    justify-content: center;      
+    align-items: center;  
 }
